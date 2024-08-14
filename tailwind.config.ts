@@ -4,6 +4,7 @@ const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/sections/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -17,6 +18,11 @@ const config: Config = {
     },
     fontFamily: {
       dmSans: ["var(--font-dmSans)"],
+    },
+    gridTemplateColumns: {
+      overallMob: "24px repeat(10, 1fr) 24px",
+      overallTab: "40px repeat(10, 1fr) 40px",
+      overallDesk: "165px repeat(10, 1fr) 165px",
     },
     extend: {
       backgroundImage: {

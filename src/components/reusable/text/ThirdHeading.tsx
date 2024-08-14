@@ -1,4 +1,4 @@
-import { cva, VariantProps } from "class-variance-authority";
+import { cva } from "class-variance-authority";
 import { cn } from "@/libs/utils";
 import HeadingProps from "@/types/headingTypes";
 
@@ -14,6 +14,9 @@ const thirdHeadingVariants = cva("text-lg leading-6 font-bold", {
       light: "text-black",
       dark: "text-white",
     },
+  },
+  defaultVariants: {
+    theme: "dark",
   },
 });
 

@@ -8,13 +8,19 @@ const FourthHeading = ({ theme, className, ...props }: HeadingProps) => {
   );
 };
 
-const fourthHeadingVariants = cva("font-bold text-xs leading-4 tracking-[2px]", {
-  variants: {
-    theme: {
-      light: "text-black",
-      dark: "text-white",
+const fourthHeadingVariants = cva(
+  "font-bold text-xs leading-4 tracking-[2px]",
+  {
+    variants: {
+      theme: {
+        light: "text-black",
+        dark: "text-white",
+      },
     },
-  },
-});
+    defaultVariants: {
+      theme: "dark",
+    },
+  }
+);
 
 export default FourthHeading

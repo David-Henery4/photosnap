@@ -18,7 +18,10 @@ const secondaryHeadingVariants = cva("font-bold text-2xl leading-6", {
       light: "text-black",
       dark: "text-white",
     }
-  }
+  },
+  defaultVariants: {
+      theme: "dark",
+    },
 })
 
 export default SecondaryHeading;
