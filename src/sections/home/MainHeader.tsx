@@ -13,6 +13,7 @@ const MainHeader = () => {
       headerType="main"
     >
       <Image
+        priority
         src={mainHeaderImgMob}
         alt="Man standing on end of a dock looking out over a misty lake with his arms down by his side holding camera."
       />

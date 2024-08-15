@@ -8,7 +8,7 @@ const BaseText = ({theme, className, ...props}: BaseTextProps) => {
   );
 }
 
-const baseTextVariants = cva("text-base font-light leading-6 opacity-60", {
+const baseTextVariants = cva("text-base font-normal leading-6 opacity-60", {
   variants: {
     theme: {
       light: "text-black",
