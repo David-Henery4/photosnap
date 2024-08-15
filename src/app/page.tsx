@@ -3,6 +3,7 @@ import {
   StoriesSection,
   DesignSection,
   GallerySection,
+  FeaturesSection
 } from "@/sections/home";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <StoriesSection />
         <DesignSection />
         <GallerySection />
+        <FeaturesSection/>
       </main>
     </>
   );

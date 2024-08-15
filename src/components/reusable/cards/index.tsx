@@ -1,4 +1,4 @@
-import SettingCard from "./SettingCard";
+import FeaturesCard from "./FeaturesCard";
 import GalleryCard from "./GalleryCard";
 
-export {SettingCard, GalleryCard}
+export { GalleryCard, FeaturesCard}
