@@ -30,7 +30,7 @@ const GalleryCard = ({
           <ThirdHeading theme="dark">{title}</ThirdHeading>
           <p className="text-white">by {author}</p>
         </div>
-        <div className="w-full h-[2px] bg-white opacity-25 mb-5 mt-4"></div>
+        <div className="w-full h-[1px] bg-white/25 mb-5 mt-4"></div>
         <Button
           className="justify-between w-full"
           buttonType="primary"

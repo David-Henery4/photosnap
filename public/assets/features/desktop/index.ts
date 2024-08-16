@@ -1,9 +1,9 @@
 import ResponsiveIcon from "./responsive.svg"
-import NoLimitIcon from "./responsive.svg"
-import BoostExposureIcon from "./responsive.svg"
-import DragAndDropIcon from "./responsive.svg"
-import EmbedIcon from "./responsive.svg"
-import CustomDomainIcon from "./responsive.svg"
+import NoLimitIcon from "./no-limit.svg"
+import BoostExposureIcon from "./boost-exposure.svg"
+import DragAndDropIcon from "./drag-drop.svg"
+import EmbedIcon from "./embed.svg"
+import CustomDomainIcon from "./custom-domain.svg"
 
 export {
   BoostExposureIcon,
