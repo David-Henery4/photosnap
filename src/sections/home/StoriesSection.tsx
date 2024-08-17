@@ -4,6 +4,8 @@ import {
   storiesImgMob,
   storiesImgTab,
   storiesImgDesk,
+  storiesImgMobLg,
+  storiesImgTabLg,
 } from "../../../public/assets/home";
 import Image from "next/image";
 import Button from "@/components/reusable/buttons/Button";
@@ -16,8 +18,8 @@ const StoriesSection = () => {
       <TwoColImage
         alt="Desk with a laptop open on it surrounded by a mobile phone and some books"
         desktopSrc={storiesImgDesk}
-        mobileSrc={storiesImgMob}
-        tabletSrc={storiesImgTab}
+        mobileSrc={storiesImgMobLg}
+        tabletSrc={storiesImgTabLg}
       />
       <TwoColText>
         <Heading theme="light">BEAUTIFUL STORIES EVERY TIME</Heading>

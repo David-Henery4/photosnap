@@ -30,7 +30,7 @@ const TwoColImage = ({
   });
   //
   return (
-    <div className="mdTab:flex-[2] mdTab:h-[650px]">
+    <div className="mdTab:flex-[2] mdTab:h-full">
       <picture className="">
         {/* <source media="(min-width: 1000px)" srcSet={desktop} /> */}
         <source media="(min-width: 41.25em)" srcSet={tablet} />

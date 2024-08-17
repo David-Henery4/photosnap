@@ -4,6 +4,8 @@ import {
   designImgMob,
   designImgTab,
   designImgDesk,
+  designImgMobLg,
+  designImgTabLg
 } from "../../../public/assets/home";
 import Button from "@/components/reusable/buttons/Button";
 import ArrowIcon from "@/components/icons/ArrowIcon";
@@ -16,8 +18,8 @@ const DesignSection = () => {
       <TwoColImage
         alt="Man in center of image, with a pitch black background, adjusting a high tech camera."
         desktopSrc={designImgDesk}
-        mobileSrc={designImgMob}
-        tabletSrc={designImgTab}
+        mobileSrc={designImgMobLg}
+        tabletSrc={designImgTabLg}
       />
       <TwoColText>
         <Heading theme="light">DESIGNED FOR EVERYONE</Heading>

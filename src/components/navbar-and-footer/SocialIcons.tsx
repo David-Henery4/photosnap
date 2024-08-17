@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const SocialIcons = () => {
   return (
-    <menu className="w-full flex justify-center items-center gap-3 mt-8">
+    <menu className="w-full flex justify-center items-center gap-3 mt-8 mdTab:mt-[72px] mdTab:justify-start">
       {socialData.map((social) => {
         return (
           <li key={social?.id} className="hover:scale-110">

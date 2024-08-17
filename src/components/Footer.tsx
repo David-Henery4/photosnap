@@ -9,12 +9,12 @@ import LogoIcon from "./icons/LogoIcon";
 
 const Footer = () => {
   return (
-    <footer className="w-full py-14 col-start-1 col-end-13 grid grid-cols-overallMob bg-black">
-      <div className="w-full col-start-2 col-end-12 flex flex-col justify-center items-center gap-[120px]">
+    <footer className="w-full py-14 col-start-1 col-end-13 grid grid-cols-overallMob bg-black md2Tab:grid-cols-overallTab">
+      <div className="w-full col-start-2 col-end-12 flex flex-col justify-center items-center gap-[120px] mdTab:flex-row mdTab:justify-between mdTab:items-start mdTab:gap-0">
         <div className="grid ">
           <LogoIcon fill="#fff"/>
           <SocialIcons />
-          <NavList navVariant="footer" className="mt-12">
+          <NavList navVariant="footer">
             {navData.map((navItem) => {
               return (
                 <li key={navItem.id} className="hover:text-topBlue">
@@ -24,7 +24,7 @@ const Footer = () => {
             })}
           </NavList>
         </div>
-        <div className="w-full flex flex-col justify-center items-center text-center gap-8">
+        <div className="w-full flex flex-col justify-center items-center text-center gap-8 mdTab:h-full mdTab:justify-between mdTab:items-end">
           <Button buttonType="primary" theme="primaryDark">
             GET AN INVITE <ArrowIcon stroke="#fff" />
           </Button>

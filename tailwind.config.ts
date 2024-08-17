@@ -13,6 +13,8 @@ const config: Config = {
       mob: "30em", // 480px
       smTab: "32.5em", // 520px
       mdTab: "41.25em", // 660px
+      md2Tab: "45em", // 720px
+      tab: "48em", // 768px
     },
     colors: {
       black: "#000000",
