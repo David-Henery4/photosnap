@@ -8,6 +8,12 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      smMob: "26.25em", // 420px
+      mob: "30em", // 480px
+      smTab: "32.5em", // 520px
+      mdTab: "41.25em", // 660px
+    },
     colors: {
       black: "#000000",
       white: "#ffffff",
@@ -23,6 +29,7 @@ const config: Config = {
       overallMob: "24px repeat(10, 1fr) 24px",
       overallTab: "40px repeat(10, 1fr) 40px",
       overallDesk: "165px repeat(10, 1fr) 165px",
+      gallery2Cols: "repeat(2,2fr)",
     },
     extend: {
       backgroundImage: {

@@ -12,7 +12,7 @@ const GalleryCard = ({
   imgSrcMobile,
 }: GalleryCardTypes) => {
   return (
-    <div className="px-6 pt-[236px] pb-10 relative">
+    <div className="px-6 pt-[236px] pb-10 relative smMob:pt-[361px]">
       {/* Create alt later */}
       <Image
         className="absolute top-0 left-0 h-full w-full object-center-top object-cover"
@@ -20,8 +20,8 @@ const GalleryCard = ({
         alt=""
         quality={100}
         loading="lazy"
-        // width={760}
-        // height={760}
+        // width={7200}
+        // height={7200}
         fill={true}
       />
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-white/0 to-black/65"></div>

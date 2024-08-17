@@ -25,19 +25,20 @@ const Header2cols = ({headerType, className, direction, ...props}: Header2column
     );
 }
 
-const header2ColsVariants = cva("", {
+const header2ColsVariants = cva("w-full col-start-1 col-end-13 mdTab:flex mdTab:items-center mdTab:justify-between", {
   variants: {
     headerType: {
       main: "bg-black",
       sub: "",
     },
     direction: {
-      leftToRight: "",
-      rightToLeft: "",
+      leftToRight: "mdTab:flex-row-reverse",
+      rightToLeft: "mdTab:flex-row",
     },
   },
   defaultVariants: {
     direction: "leftToRight",
+    headerType: "sub"
   },
 });
 

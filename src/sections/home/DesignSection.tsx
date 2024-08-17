@@ -1,18 +1,25 @@
 import { Header2cols } from "@/components/reusable";
 import { Heading, BaseText } from "@/components/reusable/text";
-import { designImgMob } from "../../../public/assets/home";
+import {
+  designImgMob,
+  designImgTab,
+  designImgDesk,
+} from "../../../public/assets/home";
 import Button from "@/components/reusable/buttons/Button";
 import ArrowIcon from "@/components/icons/ArrowIcon";
 import Image from "next/image";
+import { TwoColImage, TwoColText } from "@/components/reusable/two-cols-comps";
 
 const DesignSection = () => {
   return (
     <Header2cols direction="leftToRight" headerType="sub">
-      <Image
-        src={designImgMob}
+      <TwoColImage
         alt="Man in center of image, with a pitch black background, adjusting a high tech camera."
+        desktopSrc={designImgDesk}
+        mobileSrc={designImgMob}
+        tabletSrc={designImgTab}
       />
-      <div className="px-6 py-[72px]">
+      <TwoColText>
         <Heading theme="light">DESIGNED FOR EVERYONE</Heading>
         <BaseText theme="light" className="mt-4">
           Photosnap can help you create stories that resonate with your
@@ -21,9 +28,9 @@ const DesignSection = () => {
         </BaseText>
         <Button buttonType="primary" theme="primaryLight" className="mt-6">
           VIEW THE STORIES
-          <ArrowIcon stroke="#000"/>
+          <ArrowIcon stroke="#000" />
         </Button>
-      </div>
+      </TwoColText>
     </Header2cols>
   );
 };

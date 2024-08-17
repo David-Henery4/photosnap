@@ -1,23 +1,28 @@
 import { Header2cols } from "@/components/reusable";
 import { Heading, BaseText } from "@/components/reusable/text";
 import Button from "@/components/reusable/buttons/Button";
-import Image from "next/image";
-import { mainHeaderImgMob } from "../../../public/assets/home";
+import {
+  mainHeaderImgTab,
+  mainHeaderImgDesk,
+  mainHeaderImgMobLg,
+  mainHeaderImgTabLg,
+} from "../../../public/assets/home";
 import ArrowIcon from "@/components/icons/ArrowIcon";
+import { TwoColImage, TwoColText } from "@/components/reusable/two-cols-comps";
+import Image from "next/image";
 
 const MainHeader = () => {
   return (
-    <Header2cols
-      className="w-full col-start-1 col-end-13"
-      direction="leftToRight"
-      headerType="main"
-    >
-      <Image
-        priority
-        src={mainHeaderImgMob}
+    <Header2cols direction="leftToRight" headerType="main">
+      {/* <Image src={mainHeaderImgMobLg} className="mdTab:hidden"/> */}
+      {/* <Image src={mainHeaderImgTab} className="hidden mdTab:block"/> */}
+      <TwoColImage
         alt="Man standing on end of a dock looking out over a misty lake with his arms down by his side holding camera."
+        mobileSrc={mainHeaderImgMobLg}
+        tabletSrc={mainHeaderImgTabLg}
+        desktopSrc={mainHeaderImgDesk}
       />
-      <div className="px-6 py-[72px]">
+      <TwoColText>
         <Heading theme="dark" className="uppercase">
           Create and share your photo stories.
         </Heading>
@@ -29,7 +34,7 @@ const MainHeader = () => {
           GET AN INVITE
           <ArrowIcon stroke="#fff" />
         </Button>
-      </div>
+      </TwoColText>
     </Header2cols>
   );
 };
