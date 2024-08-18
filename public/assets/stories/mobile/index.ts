@@ -9,6 +9,7 @@ import kingOnAfricaImgMob from "./king-on-africa.jpg";
 import landOfDreamsImgMob from "./land-of-dreams.jpg";
 import milkywayImgMob from "./milky-way.jpg";
 import moonOfAppalaciaImgMob from "./moon-of-appalacia.jpg";
+import moonOfAppalaciaImgMobLg from "./moon-of-appalacia-lg.jpg";
 import rageOfTheSeaImgMob from "./rage-of-the-sea.jpg";
 import runningFreeImgMob from "./running-free.jpg";
 import somwarpetImgMob from "./somwarpet.jpg";
@@ -27,6 +28,7 @@ export{
   landOfDreamsImgMob,
   milkywayImgMob,
   moonOfAppalaciaImgMob,
+  moonOfAppalaciaImgMobLg,
   mountainsImgMob,
   rageOfTheSeaImgMob,
   runningFreeImgMob,

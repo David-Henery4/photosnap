@@ -8,7 +8,8 @@ import darkForestImgDesk from "./dark-forest-lg.jpg";
 import kingOnAfricaImgDesk from "./king-on-africa-lg.png"; // was jpg
 import landOfDreamsImgDesk from "./land-of-dreams-lg.jpg";
 import milkywayImgDesk from "./milky-way-lg.jpg";
-// import moonOfAppalaciaImgDesk from "./moon-of-appalacia-lg.jpg";
+import moonOfAppalaciaImgDesk from "./moon-of-appalacia.jpg";
+import moonOfAppalaciaImgDeskLg from "./moon-of-appalacia-lg.jpg";
 import rageOfTheSeaImgDesk from "./rage-of-the-sea-lg.jpg";
 import runningFreeImgDesk from "./running-free-lg.jpg";
 import somwarpetImgDesk from "./somwarpet-lg.jpg";
@@ -26,7 +27,8 @@ export {
   kingOnAfricaImgDesk,
   landOfDreamsImgDesk,
   milkywayImgDesk,
-  // moonOfAppalaciaImgDesk,
+  moonOfAppalaciaImgDesk,
+  moonOfAppalaciaImgDeskLg,
   mountainsImgDesk,
   rageOfTheSeaImgDesk,
   runningFreeImgDesk,
