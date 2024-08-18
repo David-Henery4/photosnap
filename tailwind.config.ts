@@ -15,6 +15,10 @@ const config: Config = {
       mdTab: "41.25em", // 660px
       md2Tab: "45em", // 720px
       tab: "48em", // 768px
+      smLap: "60em", // 960px
+      mdLap: "61.875em", // 990px
+      mdDesk: "68.75em", // 1100px
+      desk: "75.3125em", // 1200px
     },
     colors: {
       black: "#000000",
@@ -32,6 +36,7 @@ const config: Config = {
       overallTab: "40px repeat(10, 1fr) 40px",
       overallDesk: "165px repeat(10, 1fr) 165px",
       gallery2Cols: "repeat(2,2fr)",
+      gallery4cols: "repeat(4, 2fr)",
     },
     extend: {
       backgroundImage: {

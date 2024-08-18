@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${dmSans.variable}`}>
-      <body className="font-dmSans grid grid-cols-overallMob w-full md2Tab:grid-cols-overallTab">
+      <body className="font-dmSans grid grid-cols-overallMob w-full max-w-[1900px] mx-auto md2Tab:grid-cols-overallTab desk:grid-cols-overallDesk">
         {/* Gradient Testing */}
         {/* <div className="rounded-full w-12 h-12 bg-gradient-to-bl from-topBlue from-100% via-middlePink via-[52%] to-bottomOrange to-0%"></div> */}
         <Navbar />

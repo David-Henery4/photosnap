@@ -6,6 +6,7 @@ import {
   storiesImgDesk,
   storiesImgMobLg,
   storiesImgTabLg,
+  storiesImgDeskLg
 } from "../../../public/assets/home";
 import Image from "next/image";
 import Button from "@/components/reusable/buttons/Button";
@@ -17,12 +18,14 @@ const StoriesSection = () => {
     <Header2cols direction="rightToLeft" headerType="sub">
       <TwoColImage
         alt="Desk with a laptop open on it surrounded by a mobile phone and some books"
-        desktopSrc={storiesImgDesk}
+        desktopSrc={storiesImgDeskLg}
         mobileSrc={storiesImgMobLg}
         tabletSrc={storiesImgTabLg}
       />
       <TwoColText>
-        <Heading theme="light">BEAUTIFUL STORIES EVERY TIME</Heading>
+        <Heading theme="light" headingType="h2Lg">
+          BEAUTIFUL STORIES EVERY TIME
+        </Heading>
         <BaseText theme="light" className="mt-4">
           We provide design templates to ensure your stories look terrific.
           Easily add photos, text, embed maps and media from other networks.

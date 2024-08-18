@@ -9,10 +9,10 @@ import LogoIcon from "./icons/LogoIcon";
 
 const Footer = () => {
   return (
-    <footer className="w-full py-14 col-start-1 col-end-13 grid grid-cols-overallMob bg-black md2Tab:grid-cols-overallTab">
-      <div className="w-full col-start-2 col-end-12 flex flex-col justify-center items-center gap-[120px] mdTab:flex-row mdTab:justify-between mdTab:items-start mdTab:gap-0">
+    <footer className="w-full py-14 col-start-1 col-end-13 grid grid-cols-overallMob bg-black md2Tab:grid-cols-overallTab desk:grid-cols-overallDesk">
+      <div className="w-full max-w-[1110px] mx-auto col-start-2 col-end-12 flex flex-col justify-center items-center gap-[120px] mdTab:flex-row mdTab:justify-between mdTab:items-start mdTab:gap-0">
         <div className="grid ">
-          <LogoIcon fill="#fff"/>
+          <LogoIcon fill="#fff" />
           <SocialIcons />
           <NavList navVariant="footer">
             {navData.map((navItem) => {

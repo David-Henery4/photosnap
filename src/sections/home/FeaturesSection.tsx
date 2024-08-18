@@ -6,7 +6,7 @@ import FeaturesCardTypes from "@/types/featuresCardTypes";
 const FeaturesSection = () => {
   const featuresArrayData: FeaturesCardTypes[] = featuresData.slice(0, 3);
   return (
-    <section className="px-6 py-20">
+    <section className="px-6 py-20 w-full md2Tab:px-10 smLap:py-[120px] desk:px-[165px]">
       <FeaturesGrid>
         {featuresArrayData.map((feature) => {
           return (

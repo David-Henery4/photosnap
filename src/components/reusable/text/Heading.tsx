@@ -13,7 +13,7 @@ const Heading = ({ className, headingType, theme, ...props }: HeadingProps) => {
 };
 
 const headingVariants = cva(
-  "text-[32px] leading-[48px] tracking-[4.17px] font-bold", // 40px fontSize tba at larger screen width
+  "text-[32px] leading-[48px] tracking-[4.17px] font-bold mdTab:text-[40px]", // 40px fontSize tba at larger screen width
   {
     variants: {
       theme: {

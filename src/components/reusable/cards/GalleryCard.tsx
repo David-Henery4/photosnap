@@ -22,6 +22,7 @@ const GalleryCard = ({
         loading="lazy"
         // width={7200}
         // height={7200}
+        sizes="50vw"
         fill={true}
       />
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-white/0 to-black/65"></div>

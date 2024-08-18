@@ -7,14 +7,14 @@ import navData from "@/localData/navData";
 const Navbar = () => {
   const footNavData = navData.slice(1)
   return (
-    <nav className="col-start-2 col-end-12 w-full py-7 flex justify-between items-center">
+    <nav className="w-full max-w-[1110px] mx-auto col-start-2 col-end-12 py-7 flex justify-between items-center">
       <Link href="/">
         <Logo />
       </Link>
       <NavList navVariant="navbar" className="hidden gap-9 tab:flex">
         {footNavData.map((navItem) => {
           return (
-            <li key={navItem.id}>
+            <li key={navItem.id} className="hover:text-black/30">
               <Link href={navItem.href}>{navItem.label}</Link>
             </li>
           );

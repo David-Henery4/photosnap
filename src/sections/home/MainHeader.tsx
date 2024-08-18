@@ -6,6 +6,7 @@ import {
   mainHeaderImgDesk,
   mainHeaderImgMobLg,
   mainHeaderImgTabLg,
+  mainHeaderImgDeskLg
 } from "../../../public/assets/home";
 import ArrowIcon from "@/components/icons/ArrowIcon";
 import { TwoColImage, TwoColText } from "@/components/reusable/two-cols-comps";
@@ -20,7 +21,7 @@ const MainHeader = () => {
         alt="Man standing on end of a dock looking out over a misty lake with his arms down by his side holding camera."
         mobileSrc={mainHeaderImgMobLg}
         tabletSrc={mainHeaderImgTabLg}
-        desktopSrc={mainHeaderImgDesk}
+        desktopSrc={mainHeaderImgDeskLg}
       />
       <TwoColText>
         <Heading theme="dark" className="uppercase">
