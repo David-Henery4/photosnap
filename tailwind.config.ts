@@ -19,6 +19,7 @@ const config: Config = {
       mdLap: "61.875em", // 990px
       mdDesk: "68.75em", // 1100px
       desk: "75.3125em", // 1200px
+      lgDesk: "85em", // 1360px
     },
     colors: {
       black: "#000000",
@@ -37,6 +38,8 @@ const config: Config = {
       overallDesk: "165px repeat(10, 1fr) 165px",
       gallery2Cols: "repeat(2,2fr)",
       gallery4cols: "repeat(4, 2fr)",
+      features2Cols: "repeat(2,2fr)",
+      features3Cols: "repeat(3,2fr)",
     },
     extend: {
       backgroundImage: {

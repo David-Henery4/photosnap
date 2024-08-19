@@ -6,6 +6,9 @@ import PinterestIcon from "./desktop/pinterest.svg"
 import InstagramIcon from "./desktop/instagram.svg"
 import YoutubeIcon from "./desktop/youtube.svg"
 import Twitter from "./desktop/twitter.svg"
+import CtaImageBgDesk from "./desktop/bg-beta.jpg"
+import CtaImageBgTab from "./desktop/bg-beta.jpg"
+import CtaImageBgMob from "./desktop/bg-beta.jpg"
 
 export {
   Logo,

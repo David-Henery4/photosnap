@@ -1,8 +1,7 @@
 import { Heading, FourthHeading, BaseText } from "../reusable/text";
 import Image from "next/image";
-import { moonOfAppalaciaImgMob, moonOfAppalaciaImgMobLg } from "../../../public/assets/stories/mobile";
-import { moonOfAppalaciaImgTab, moonOfAppalaciaImgTabLg } from "../../../public/assets/stories/tablet";
-import { moonOfAppalaciaImgDesk, moonOfAppalaciaImgDeskLg } from "../../../public/assets/stories/desktop";
+import {moonOfAppalaciaImgTabLg } from "../../../public/assets/stories/tablet";
+import { moonOfAppalaciaImgDeskLg } from "../../../public/assets/stories/desktop";
 import Button from "../reusable/buttons/Button";
 import ArrowIcon from "../icons/ArrowIcon";
 
@@ -12,11 +11,18 @@ const StoriesHeader = () => {
       <div className="w-full relative smTab:col-start-1 smTab:col-end-13 smTab:row-start-1 smTab:row-end-2">
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-white/0 to-black/65"></div>
         <Image
+          src={moonOfAppalaciaImgTabLg}
+          alt="A misty forest with mountains in Appalachia at night with clear skies and a full moon"
+          priority={true}
+          quality={100}
+          className="w-full object-cover object-center smTab:h-full smTab:max-h-[650px] smLap:hidden"
+        />
+        <Image
           src={moonOfAppalaciaImgDeskLg}
           alt="A misty forest with mountains in Appalachia at night with clear skies and a full moon"
           priority={true}
           quality={100}
-          className="w-full object-cover object-center smTab:h-full smTab:max-h-[650px]"
+          className="hidden w-full object-cover object-center smTab:h-full smTab:max-h-[650px] smLap:block"
         />
       </div>
       <div className="w-full px-6 py-12 z-10 max-w-[387px] smTab:col-start-2 smTab:col-end-12 smTab:row-start-1 smTab:row-end-2 smTab:px-0 smTab:py-[122px] smTab:self-center">
