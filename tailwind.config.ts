@@ -11,14 +11,15 @@ const config: Config = {
     screens: {
       smMob: "26.25em", // 420px
       mob: "30em", // 480px
-      smTab: "32.5em", // 520px
+      xSmTab: "32.5em", // 520px
+      smTab: "38.75em", // 620px
       mdTab: "41.25em", // 660px
       md2Tab: "45em", // 720px
       tab: "48em", // 768px
       smLap: "60em", // 960px
       mdLap: "61.875em", // 990px
       mdDesk: "68.75em", // 1100px
-      desk: "75.3125em", // 1200px
+      desk: "75.3125em", // 1205px
       lgDesk: "85em", // 1360px
     },
     colors: {
@@ -46,6 +47,15 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        // Mobile
+        "cta-bg-mob": "url('/assets/shared/mobile/bg-beta.jpg')",
+        "cta-bg-mob-lg": "url('/assets/shared/mobile/bg-beta-lg.jpg')",
+        // Tablet
+        "cta-bg-Tab": "url('/assets/shared/tablet/bg-beta.jpg')",
+        "cta-bg-Tab-lg": "url('/assets/shared/tablet/bg-beta-lg.jpg')",
+        // Desktop
+        "cta-bg-Desk": "url('/assets/shared/desktop/bg-beta.jpg')",
+        "cta-bg-Desk-lg": "url('/assets/shared/desktop/bg-beta-lg.jpg')",
       },
       objectPosition: {
         "center-top": "50% 50%",

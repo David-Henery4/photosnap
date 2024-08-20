@@ -9,6 +9,9 @@ import Twitter from "./desktop/twitter.svg"
 import CtaImageBgDesk from "./desktop/bg-beta.jpg"
 import CtaImageBgTab from "./desktop/bg-beta.jpg"
 import CtaImageBgMob from "./desktop/bg-beta.jpg"
+import CtaImageBgDeskLg from "./desktop/bg-beta-lg.jpg"
+import CtaImageBgTabLg from "./desktop/bg-beta-lg.jpg"
+import CtaImageBgMobLg from "./desktop/bg-beta-lg.jpg"
 
 export {
   Logo,
@@ -19,4 +22,10 @@ export {
   PinterestIcon,
   Twitter,
   YoutubeIcon,
+  CtaImageBgDesk,
+  CtaImageBgDeskLg,
+  CtaImageBgMob,
+  CtaImageBgMobLg,
+  CtaImageBgTab,
+  CtaImageBgTabLg
 }

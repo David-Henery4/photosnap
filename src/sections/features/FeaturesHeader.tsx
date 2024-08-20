@@ -23,7 +23,7 @@ const FeaturesHeader = () => {
         <Heading theme="dark" className="uppercase">
           FEATURES
         </Heading>
-        <BaseText theme="dark" className="mt-4 smTab:mt-5">
+        <BaseText theme="dark" className="mt-4 xSmTab:mt-5">
           We make sure all of our features are designed to be loved by every
           aspiring and even professional photograpers who wanted to share their
           stories.

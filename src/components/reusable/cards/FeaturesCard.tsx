@@ -6,7 +6,7 @@ interface FeaturesCardProps extends FeaturesCardTypes {
 }
 
 const FeaturesCard = (feature: FeaturesCardProps) => {
-  console.log(feature)
+  //
   return (
     <div className={`flex flex-col justify-center items-center gap-12 ${feature.isFullGrid ? "max-w-[350px]" : ""}`}>
       <feature.icon />
