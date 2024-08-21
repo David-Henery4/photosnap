@@ -42,6 +42,7 @@ const config: Config = {
       gallery4cols: "repeat(4, 2fr)",
       features2Cols: "repeat(2,2fr)",
       features3Cols: "repeat(3,2fr)",
+      threeEvenCols: "repeat(3,1fr)",
     },
     extend: {
       backgroundImage: {
