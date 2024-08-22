@@ -9,7 +9,6 @@ const PricingPlansContainer = () => {
         {pricingData.map((pricingPlan) => {
           return <PlanCard key={pricingPlan.id} {...pricingPlan} />;
         })}
-        {/* <PlanCard /> */}
       </PlanGrid>
     </main>
   );
