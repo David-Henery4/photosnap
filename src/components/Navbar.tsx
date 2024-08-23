@@ -3,9 +3,17 @@ import { NavList } from "./navbar-and-footer";
 import Link from "next/link";
 import Button from "./reusable/buttons/Button";
 import navData from "@/localData/navData";
+import { Dispatch, SetStateAction } from "react";
 
-const Navbar = () => {
-  const footNavData = navData.slice(1)
+interface NavbarProps {
+  setIsSidebarOpen: Dispatch<SetStateAction<boolean>>;
+}
+
+const Navbar = ({ setIsSidebarOpen }: NavbarProps) => {
+  const footNavData = navData.slice(1);
+  //
+  const handleOpenSidebar = () => setIsSidebarOpen(true);
+  //
   return (
     <nav className="w-full max-w-[1110px] mx-auto col-start-2 col-end-12 py-7 flex justify-between items-center">
       <Link href="/">
@@ -27,7 +35,10 @@ const Navbar = () => {
       >
         Get an invite
       </Button>
-      <div className="hover:cursor-pointer tab:hidden">
+      <div
+        className="hover:cursor-pointer tab:hidden"
+        onClick={handleOpenSidebar}
+      >
         <MenuIcon />
       </div>
     </nav>

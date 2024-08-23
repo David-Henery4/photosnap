@@ -28,7 +28,7 @@ const Footer = () => {
           <Button buttonType="primary" theme="primaryDark">
             GET AN INVITE <ArrowIcon stroke="#fff" />
           </Button>
-          <BaseText theme="dark">Copyright 2019. All Rights Reserved</BaseText>
+          <BaseText theme="dark">Copyright 2024. All Rights Reserved</BaseText>
         </div>
       </div>
     </footer>

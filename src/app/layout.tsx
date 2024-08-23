@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { dmSans } from "@/fonts/fonts";
 import { Navbar, Footer } from "@/components";
+import Navigation from "@/sections/navigation/Navigation";
 
 
 export const metadata: Metadata = {
@@ -20,7 +21,8 @@ export default function RootLayout({
       <body className="font-dmSans grid grid-cols-overallMob w-full max-w-[1900px] mx-auto md2Tab:grid-cols-overallTab desk:grid-cols-overallDesk">
         {/* Gradient Testing */}
         {/* <div className="rounded-full w-12 h-12 bg-gradient-to-bl from-topBlue from-100% via-middlePink via-[52%] to-bottomOrange to-0%"></div> */}
-        <Navbar />
+        {/* <Navbar /> */}
+        <Navigation/>
         {children}
         <Footer />
       </body>

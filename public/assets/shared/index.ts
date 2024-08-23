@@ -1,5 +1,6 @@
 import Logo from "./desktop/logo.svg"
 import MenuIcon from "./mobile/menu.svg"
+import CrossIcon from"./mobile/close.svg"
 import ArrowIcon from "./desktop/arrow.svg"
 import FacebookIcon from "./desktop/facebook.svg"
 import PinterestIcon from "./desktop/pinterest.svg"
@@ -16,6 +17,7 @@ import CtaImageBgMobLg from "./desktop/bg-beta-lg.jpg"
 export {
   Logo,
   MenuIcon,
+  CrossIcon,
   ArrowIcon,
   FacebookIcon,
   InstagramIcon,
