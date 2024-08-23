@@ -15,15 +15,13 @@ import Image from "next/image";
 const MainHeader = () => {
   return (
     <Header2cols direction="leftToRight" headerType="main">
-      {/* <Image src={mainHeaderImgMobLg} className="mdTab:hidden"/> */}
-      {/* <Image src={mainHeaderImgTab} className="hidden mdTab:block"/> */}
       <TwoColImage
         alt="Man standing on end of a dock looking out over a misty lake with his arms down by his side holding camera."
         mobileSrc={mainHeaderImgMobLg}
         tabletSrc={mainHeaderImgTabLg}
         desktopSrc={mainHeaderImgDeskLg}
       />
-      <TwoColText>
+      <TwoColText isHeader={true}>
         <Heading theme="dark" className="uppercase">
           Create and share your photo stories.
         </Heading>

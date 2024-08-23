@@ -43,6 +43,7 @@ const galleryData = [
     imgSrcMobile: mountainsImgMob,
     imgSrcDesktop: mountainsImgDesk,
     hrefSrc: "#",
+    alt: "",
   },
   {
     id: 2,
@@ -51,6 +52,7 @@ const galleryData = [
     imgSrcMobile: cityscapesImgMob,
     imgSrcDesktop: cityscapesImgDesk,
     hrefSrc: "#",
+    alt: "arial view of a city skyline at sunset"
   },
   {
     id: 3,
@@ -59,6 +61,7 @@ const galleryData = [
     imgSrcMobile: daysVoyageImgMob,
     imgSrcDesktop: daysVoyageImgDesk,
     hrefSrc: "#",
+    alt: "A man walking along."
   },
   {
     id: 4,
@@ -67,6 +70,7 @@ const galleryData = [
     imgSrcMobile: architecturalsImgMob,
     imgSrcDesktop: architecturalsImgDesk,
     hrefSrc: "#",
+    alt: "A weird shaped building"
   },
   {
     id: 5,
@@ -75,6 +79,7 @@ const galleryData = [
     imgSrcMobile: worldTourImgMob,
     imgSrcDesktop: worldTourImgDesk,
     hrefSrc: "#",
+    alt: "Mountains next to a lake"
   },
   {
     id: 6,
@@ -83,6 +88,7 @@ const galleryData = [
     imgSrcMobile: unforeseenCornersImgMob,
     imgSrcDesktop: unforeseenCornersImgDesk,
     hrefSrc: "#",
+    alt: "A lone try on a cliff at sunrise."
   },
   {
     id: 7,
@@ -91,6 +97,7 @@ const galleryData = [
     imgSrcMobile: kingOnAfricaImgMob,
     imgSrcDesktop: kingOnAfricaImgDesk,
     hrefSrc: "#",
+    alt: "Close up of a lions face"
   },
   {
     id: 8,
@@ -99,6 +106,7 @@ const galleryData = [
     imgSrcMobile: tripToNowhereImgMob,
     imgSrcDesktop: tripToNowhereImgDesk,
     hrefSrc: "#",
+    alt: "A lone tree and its reflection in a lake next to it."
   },
   {
     id: 9,
@@ -107,6 +115,7 @@ const galleryData = [
     imgSrcMobile: rageOfTheSeaImgMob,
     imgSrcDesktop: rageOfTheSeaImgDesk,
     hrefSrc: "#",
+    alt: "Close up of waves in the sea at sunset."
   },
   {
     id: 10,
@@ -115,6 +124,7 @@ const galleryData = [
     imgSrcMobile: runningFreeImgMob,
     imgSrcDesktop: runningFreeImgDesk,
     hrefSrc: "#",
+    alt: "Two black horses running though a cloud of dust."
   },
   {
     id: 11,
@@ -123,6 +133,7 @@ const galleryData = [
     imgSrcMobile: behindTheWavesMob,
     imgSrcDesktop: behindTheWavesDesk,
     hrefSrc: "#",
+    alt: "Giant waves in the sea."
   },
   {
     id: 12,
@@ -131,6 +142,7 @@ const galleryData = [
     imgSrcMobile: calmWatersImgMob,
     imgSrcDesktop: calmWatersImgDesk,
     hrefSrc: "#",
+    alt: "Giant hills covered in red plants."
   },
   {
     id: 13,
@@ -139,6 +151,7 @@ const galleryData = [
     imgSrcMobile: milkywayImgMob,
     imgSrcDesktop: milkywayImgDesk,
     hrefSrc: "#",
+    alt: "The milky way galaxy."
   },
   {
     id: 14,
@@ -147,6 +160,7 @@ const galleryData = [
     imgSrcMobile: darkForestImgMob,
     imgSrcDesktop: darkForestImgDesk,
     hrefSrc: "#",
+    alt: "A cliff face in some snowy forest."
   },
   {
     id: 15,
@@ -155,6 +169,7 @@ const galleryData = [
     imgSrcMobile: somwarpetImgMob,
     imgSrcDesktop: somwarpetImgDesk,
     hrefSrc: "#",
+    alt: "Close up of yellow flowers."
   },
   {
     id: 16,
@@ -163,6 +178,7 @@ const galleryData = [
     imgSrcMobile: landOfDreamsImgMob,
     imgSrcDesktop: landOfDreamsImgDesk,
     hrefSrc: "#",
+    alt: "A small church on top of a tall hill surrounded by clouds and snow caped mountains."
   },
 ];
 

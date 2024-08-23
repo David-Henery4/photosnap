@@ -11,12 +11,12 @@ const PricingHeader = () => {
   return (
     <Header2cols direction="leftToRight" headerType="main">
       <TwoColImage
-        alt="Man standing on end of a dock looking out over a misty lake with his arms down by his side holding camera."
+        alt="Silhouette of a woman adjusting a camera on a tripod at sunset."
         mobileSrc={heroMobLg}
         tabletSrc={heroTabLg}
         desktopSrc={heroDeskLg}
       />
-      <TwoColText>
+      <TwoColText isHeader={true}>
         <Heading theme="dark" className="uppercase">
           pricing
         </Heading>

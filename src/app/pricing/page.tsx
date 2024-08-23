@@ -3,6 +3,7 @@ import {
   ComparisonContainer,
   PricingPlansContainer,
 } from "@/sections/pricing";
+import { CallToAction } from "@/components/reusable";
 
 const page = () => {
   return (
@@ -10,6 +11,7 @@ const page = () => {
       <PricingHeader />
       <PricingPlansContainer />
       <ComparisonContainer />
+      <CallToAction/>
     </>
   );
 };

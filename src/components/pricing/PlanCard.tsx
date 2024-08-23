@@ -38,7 +38,7 @@ const PlanCard = ({
   return (
     <div
       className={`w-full pt-14 px-[22px] pb-10 grid gap-10 justify-items-center text-center transition-all smTab:text-left smTab:justify-items-start smTab:p-10 smLap:justify-items-center smLap:text-center smLap:pt-14 ${
-        isActivePlan ? "bg-black scale-110" : "bg-lighterGrey scale-100"
+        isActivePlan ? "bg-black scale-105" : "bg-lighterGrey scale-100"
       }`}
     >
       <div className="max-w-[270px] mx-auto smTab:col-start-1 smTab:col-end-2 smTab:m-0 smLap:col-auto">

@@ -14,12 +14,12 @@ const FeaturesHeader = () => {
   return (
     <Header2cols direction="leftToRight" headerType="main">
       <TwoColImage
-        alt="Man standing on end of a dock looking out over a misty lake with his arms down by his side holding camera."
+        alt="Close up of a persons hand, holding a camera against a blured background."
         mobileSrc={featuresHeroImgMobLg}
         tabletSrc={featuresHeroImgTabLg}
         desktopSrc={featuresHeroImgDeskLg}
       />
-      <TwoColText>
+      <TwoColText isHeader={true}>
         <Heading theme="dark" className="uppercase">
           FEATURES
         </Heading>

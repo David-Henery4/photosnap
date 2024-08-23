@@ -6,7 +6,8 @@ interface GalleryCardTypes {
   hrefSrc: string;
   imgSrcMobile: StaticImageData;
   imgSrcDesktop: StaticImageData;
-  id: number
+  id: number,
+  alt: string
 }
 
 export default GalleryCardTypes

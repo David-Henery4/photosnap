@@ -10,18 +10,16 @@ const GalleryCard = ({
   title,
   imgSrcDesktop,
   imgSrcMobile,
+  alt
 }: GalleryCardTypes) => {
   return (
     <div className="px-6 pt-[236px] pb-10 relative smMob:pt-[361px] md2Tab:px-10">
-      {/* Create alt later */}
       <Image
         className="absolute top-0 left-0 h-full w-full object-center-top object-cover"
         src={imgSrcDesktop}
-        alt=""
+        alt={alt}
         quality={100}
         loading="lazy"
-        // width={7200}
-        // height={7200}
         sizes="50vw"
         fill={true}
       />
